@@ -178,7 +178,7 @@ main {
 }
 .index-parte {
   margin: 4%;
-  color:#7c8a6e;
+  color:#1d1d1d;
   font-size: 25px;
 }
 .titulo-index {
@@ -189,13 +189,31 @@ main {
   text-indent: 2%;
   font-size: 20px;
 }
-.meus-links {
+.meus-links{
   margin-top: auto;
   padding: 20px;
 }
+.meus-links img {
+  width: 150px;
+  height: 35px;
+}
 @media (max-width: 480px) {
   .meus-links img {
-    width: 150px;
+    width: 120px;
+    height: 30px;
+  }
+  .index-parte {
+    margin: 4%;
+    color:#1d1d1d;
+    font-size: 20px;
+  }
+  .titulo-index {
+    text-align: center;
+    color: #272827;
+  }
+  .index-conteudo {
+    text-indent: 2%;
+    font-size: 18px;
   }
 }
 
